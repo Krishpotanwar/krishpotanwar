@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 252" width="880" height="252" role="img" aria-labelledby="title desc">
+<title id="title">Ground track</title>
+<desc id="desc">A small satellite glides along its orbit above a grid of ground tiles. It stops, frames one patch of tiles between corner brackets, and the patch lights up like a dated photo of one place.</desc>
+<style>
+:root{--ink:#27272a;--orbit:#a1a1aa;--tile:#ececef;--l1:#f6d9c4;--l2:#eeb48b;--l3:#d77d43;--l4:#a74e1b;--face:#ffffff;--side:#f4f4f5}
+.orbit{fill:none;stroke:var(--orbit);stroke-width:1.2;stroke-dasharray:2 7}
+.tick{fill:none;stroke:var(--orbit);stroke-width:1.2}
+.tile{fill:var(--tile)}
+.l1{fill:var(--l1)}.l2{fill:var(--l2)}.l3{fill:var(--l3)}.l4{fill:var(--l4)}
+.beam{fill:var(--l4);opacity:.09}
+.bracket{fill:none;stroke:var(--l4);stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
+.cone{fill:none;stroke:var(--l3);stroke-width:1;stroke-dasharray:3 4}
+.line{stroke:var(--ink);stroke-width:1.5;stroke-linejoin:round;stroke-linecap:round}
+.panel{fill:var(--l1)}.face{fill:var(--face)}.side{fill:var(--side)}.top{fill:var(--l1)}
+.grid{fill:none}
+.pass{animation:pass 4.8s cubic-bezier(.3,.45,.25,1) both}
+.photo{animation:photo 4.8s ease-out both}
+@keyframes pass{from{transform:translateX(-640px)}to{transform:translateX(0)}}
+@keyframes photo{0%,84%{opacity:0}100%{opacity:1}}
+@media (prefers-reduced-motion:reduce){.pass,.photo{animation:none}}
+</style>
+<defs>
+<rect id="tl" width="13" height="13" rx="2.5"/>
+<pattern id="ground" x="17" y="124" width="17" height="17" patternUnits="userSpaceOnUse"><use href="#tl" class="tile"/></pattern>
+</defs>
+<path class="orbit" d="M0 64H880"/>
+<path class="tick" d="M23.5 60v8M108.5 60v8M193.5 60v8M278.5 60v8M363.5 60v8M448.5 60v8M533.5 60v8M618.5 60v8M703.5 60v8M788.5 60v8M873.5 60v8"/>
+<rect x="17" y="124" width="850" height="119" style="fill:url(#ground)"/>
+<g class="photo">
+<use href="#tl" x="527" y="124" class="l1"/><use href="#tl" x="544" y="124" class="l1"/><use href="#tl" x="561" y="124" class="l2"/><use href="#tl" x="578" y="124" class="l2"/><use href="#tl" x="595" y="124" class="l1"/>
+<use href="#tl" x="527" y="141" class="l1"/><use href="#tl" x="544" y="141" class="l2"/><use href="#tl" x="561" y="141" class="l3"/><use href="#tl" x="578" y="141" class="l2"/><use href="#tl" x="595" y="141" class="l1"/>
+<use href="#tl" x="527" y="158" class="l2"/><use href="#tl" x="544" y="158" class="l3"/><use href="#tl" x="561" y="158" class="l4"/><use href="#tl" x="578" y="158" class="l3"/><use href="#tl" x="595" y="158" class="l2"/>
+<use href="#tl" x="527" y="175" class="l2"/><use href="#tl" x="544" y="175" class="l3"/><use href="#tl" x="561" y="175" class="l4"/><use href="#tl" x="578" y="175" class="l4"/><use href="#tl" x="595" y="175" class="l2"/>
+<use href="#tl" x="527" y="192" class="l1"/><use href="#tl" x="544" y="192" class="l2"/><use href="#tl" x="561" y="192" class="l3"/><use href="#tl" x="578" y="192" class="l3"/><use href="#tl" x="595" y="192" class="l2"/>
+<use href="#tl" x="527" y="209" class="l1"/><use href="#tl" x="544" y="209" class="l1"/><use href="#tl" x="561" y="209" class="l2"/><use href="#tl" x="578" y="209" class="l2"/><use href="#tl" x="595" y="209" class="l1"/>
+<use href="#tl" x="527" y="226" class="l1"/><use href="#tl" x="544" y="226" class="l1"/><use href="#tl" x="561" y="226" class="l1"/><use href="#tl" x="578" y="226" class="l2"/><use href="#tl" x="595" y="226" class="l1"/>
+</g>
+<g class="pass">
+<rect class="beam" x="523" y="120" width="89" height="127" rx="3"/>
+<path class="bracket" d="M521 129V118H531M604 118H614V129M521 236V247H531M604 247H614V236"/>
+<path class="cone" d="M567.5 85L526 117M567.5 85L609 117"/>
+<g transform="translate(567.5 64) scale(1.15)">
+<path class="panel line" d="M-14.7-16.5L-52.8-38.5V-22.5L-14.7-.5Z"/>
+<path class="grid line" d="M-24.2-22V-6M-33.75-27.5V-11.5M-43.3-33V-17M-14.7-8.5L-52.8-30.5M-7.8-4.5L-14.7-8.5"/>
+<path class="top line" d="M0-18L15.6-9L0 0L-15.6-9Z"/>
+<path class="side line" d="M-15.6-9L0 0V18L-15.6 9Z"/>
+<path class="face line" d="M15.6-9L0 0V18L15.6 9Z"/>
+<path class="grid line" d="M0-13.5V-27"/>
+<circle class="l4" cx="0" cy="-29" r="2.6"/>
+<circle class="l3 line" cx="-7.8" cy="4.5" r="3.2"/>
+<path class="grid line" d="M7.8 4.5L14.7 8.5"/>
+<path class="panel line" d="M14.7 .5L52.8 22.5V38.5L14.7 16.5Z"/>
+<path class="grid line" d="M24.2 6V22M33.75 11.5V27.5M43.3 17V33M14.7 8.5L52.8 30.5"/>
+</g>
+</g>
+</svg>

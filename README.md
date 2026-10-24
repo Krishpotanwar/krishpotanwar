@@ -1,6 +1,11 @@
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Krishpotanwar/krishpotanwar/main/assets/ground-track-dark.svg">
+  <img src="https://raw.githubusercontent.com/Krishpotanwar/krishpotanwar/main/assets/ground-track-light.svg" alt="A line drawing of a small satellite gliding along its orbit above a grid of square ground tiles. It stops, frames one patch of tiles between corner brackets, and the patch lights up in orange, like a dated photo of one place.">
+</picture>
+
 # Hi, I'm Krish
 
-I'm a B.Tech student in Computer Science (AI & ML) at Ramdeobaba University, Nagpur. I like taking a problem from "this is annoying" to a working product that real people can open on their phone: the idea, the design, the code, the tests and the words on the screen. I'm open to internships and collaborations.
+I'm a B.Tech student in Computer Science (AI & ML) at Ramdeobaba University, Nagpur. Right now I'm building [GrahSaboot](https://grahsaboot.grahsaboot.workers.dev), a free website for dated satellite photos of any place on land, and [HisaabKitaab](https://hisab-rust.vercel.app), an app for splitting group expenses. I like taking a problem from "this is annoying" to a working product that real people can open on their phone: the idea, the design, the code, the tests and the words on the screen. I'm open to internships and collaborations.
 
 I keep coming back to everyday and public problems in India: splitting a bill without arguments, getting around a flooded road, looking at dated satellite photos of a place to see what changed, and helping an officer decide which public works to inspect first.
 
@@ -18,7 +23,7 @@ I move fast, I ship, and I write things down. I build with AI coding tools, ofte
 
 <a href="https://github.com/Krishpotanwar/grahsaboot/blob/main/docs/media/grahsaboot-explainer.mp4"><img src="https://raw.githubusercontent.com/Krishpotanwar/grahsaboot/main/docs/media/grahsaboot-preview.gif" alt="A 24-second silent preview of the GrahSaboot video, on a loop: the six-step diagram, a before and after swipe at the Navi Mumbai airport, the report's What we measured block, and a real case replayed, the Kakhovka dam in June 2023, with the fingerprint of each photo. The link opens the full 3-minute video's file page." width="640"></a>
 
-A free website where you pick a place and get real, dated satellite photos (Sentinel-2) with the clouds checked. Put a "before" photo next to an "after" photo, pin the dates that matter, and save a report. Every photo in a report gets a digital fingerprint, so someone else can check it later, and the site is upfront about what 10-metre photos cannot show. Since 24 October 2026 it also has "Watch it change", up to six pictures of the same place, one a year, played as a time-lapse (for looking only: those pictures are never fingerprinted), and a switch that hides the live satellites. It is a live prototype, built with TypeScript, React, MapLibre and a Cloudflare Worker, and tested in three browser engines and for accessibility.
+A free website where you pick a place and get real, dated satellite photos (Sentinel-2) with the clouds checked. Put a "before" photo next to an "after" photo, pin the dates that matter, and save a report. Every photo in a report gets a digital fingerprint, so someone else can check it later, and the site is upfront about what 10-metre photos cannot show. Since 24 October 2026 it also has "Watch it change", six pictures of the same place, one a year, played as a time-lapse (for looking only: those pictures are never fingerprinted), and a switch that hides the live satellites. It is a live prototype, built with TypeScript, React, MapLibre and a Cloudflare Worker, and tested in three browser engines and for accessibility.
 
 [Live site](https://grahsaboot.grahsaboot.workers.dev) · [Code](https://github.com/Krishpotanwar/grahsaboot) · [The 3-minute video](https://github.com/Krishpotanwar/grahsaboot/blob/main/docs/media/grahsaboot-explainer.mp4) (the picture above is a 24-second silent preview; the full video is a file, so GitHub opens its page, where Download saves it)
 
@@ -59,6 +64,20 @@ I practise on LeetCode, Codeforces and CodeChef, mostly dynamic programming, mon
 ## Away from the screen
 
 You will find me on a football pitch, at the gym, or editing bike trip videos with friends. I also like finding someone new to talk to. Collecting perspectives is my favourite hobby.
+
+## My last year on GitHub
+
+A ground track is the path a satellite traces over the ground. Mine is my contribution graph: one square for each day of the last year, darker orange on busier days, with a snake that winds across it and eats the coloured squares. A small GitHub Action redraws it every day.
+
+<details open>
+<summary>The animation (click to hide it)</summary>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Krishpotanwar/krishpotanwar/output/github-contribution-grid-snake-dark.svg">
+  <img src="https://raw.githubusercontent.com/Krishpotanwar/krishpotanwar/output/github-contribution-grid-snake.svg" alt="My GitHub contribution graph for the last year: one square per day in shades of orange, darker on busier days. A snake winds across the grid and eats the coloured squares, then the animation starts again.">
+</picture>
+
+</details>
 
 ## Let's connect
 
