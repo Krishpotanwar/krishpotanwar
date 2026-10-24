@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 252" width="880" height="252" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 262" width="880" height="262" role="img" aria-labelledby="title desc">
 <title id="title">Ground track</title>
 <desc id="desc">A small satellite glides along its orbit above a grid of ground tiles. It stops, frames one patch of tiles between corner brackets, and the patch lights up like a dated photo of one place.</desc>
 <style>
@@ -8,7 +8,7 @@
 .tile{fill:var(--tile)}
 .l1{fill:var(--l1)}.l2{fill:var(--l2)}.l3{fill:var(--l3)}.l4{fill:var(--l4)}
 .beam{fill:var(--l4);opacity:.09}
-.bracket{fill:none;stroke:var(--l4);stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
+.bracket{fill:none;stroke:var(--l4);stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round;transform-box:fill-box;transform-origin:center;animation:focus 4.8s ease-out both}
 .cone{fill:none;stroke:var(--l3);stroke-width:1;stroke-dasharray:3 4}
 .line{stroke:var(--ink);stroke-width:1.5;stroke-linejoin:round;stroke-linecap:round}
 .panel{fill:var(--l1)}.face{fill:var(--face)}.side{fill:var(--side)}.top{fill:var(--l1)}
@@ -17,7 +17,8 @@
 .photo{animation:photo 4.8s ease-out both}
 @keyframes pass{from{transform:translateX(-640px)}to{transform:translateX(0)}}
 @keyframes photo{0%,84%{opacity:0}100%{opacity:1}}
-@media (prefers-reduced-motion:reduce){.pass,.photo{animation:none}}
+@keyframes focus{0%,76%{transform:scale(1.1)}92%,100%{transform:scale(1)}}
+@media (prefers-reduced-motion:reduce){.pass,.photo,.bracket{animation:none}}
 </style>
 <defs>
 <rect id="tl" width="13" height="13" rx="2.5"/>

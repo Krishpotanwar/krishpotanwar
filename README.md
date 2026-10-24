@@ -67,14 +67,14 @@ You will find me on a football pitch, at the gym, or editing bike trip videos wi
 
 ## My last year on GitHub
 
-A ground track is the path a satellite traces over the ground. Mine is my contribution graph: one square for each day of the last year, darker orange on busier days, with a snake that winds across it and eats the coloured squares. A small GitHub Action redraws it every day.
+A ground track is the path a satellite traces over the ground. Mine is my contribution graph: one square for each day of the last year, a stronger orange on busier days, with a snake that winds across it and eats the coloured squares. A small GitHub Action redraws it every day.
 
 <details open>
-<summary>The animation (click to hide it)</summary>
+<summary>The snake animation (close this to hide it)</summary>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Krishpotanwar/krishpotanwar/output/github-contribution-grid-snake-dark.svg">
-  <img src="https://raw.githubusercontent.com/Krishpotanwar/krishpotanwar/output/github-contribution-grid-snake.svg" alt="My GitHub contribution graph for the last year: one square per day in shades of orange, darker on busier days. A snake winds across the grid and eats the coloured squares, then the animation starts again.">
+  <img src="https://raw.githubusercontent.com/Krishpotanwar/krishpotanwar/output/github-contribution-grid-snake.svg" alt="My GitHub contribution graph for the last year: one square per day, a stronger orange on busier days. A snake winds across the grid and eats the coloured squares, then the animation starts again.">
 </picture>
 
 </details>
