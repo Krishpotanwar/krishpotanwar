@@ -16,11 +16,11 @@ I move fast, I ship, and I write things down. I build with AI coding tools, ofte
 
 ### GrahSaboot: dated satellite photos of any place on land
 
-<a href="https://github.com/Krishpotanwar/grahsaboot/blob/main/docs/media/grahsaboot-explainer.mp4"><img src="https://raw.githubusercontent.com/Krishpotanwar/grahsaboot/main/docs/media/grahsaboot-explainer-poster.jpg" alt="The GrahSaboot video, 3 minutes (the link opens the file page). The still shows public satellite photos of the Kakhovka dam before and after, in June 2023, each with its date and fingerprint." width="640"></a>
+<a href="https://github.com/Krishpotanwar/grahsaboot/blob/main/docs/media/grahsaboot-explainer.mp4"><img src="https://raw.githubusercontent.com/Krishpotanwar/grahsaboot/main/docs/media/grahsaboot-preview.gif" alt="A 24-second silent preview of the GrahSaboot video, on a loop: the six-step diagram, a before and after swipe at the Navi Mumbai airport, the report's What we measured block, and a real case replayed, the Kakhovka dam in June 2023, with the fingerprint of each photo. The link opens the full 3-minute video's file page." width="640"></a>
 
 A free website where you pick a place and get real, dated satellite photos (Sentinel-2) with the clouds checked. Put a "before" photo next to an "after" photo, pin the dates that matter, and save a report. Every photo in a report gets a digital fingerprint, so someone else can check it later, and the site is upfront about what 10-metre photos cannot show. Since 24 October 2026 it also has "Watch it change", up to six pictures of the same place, one a year, played as a time-lapse (for looking only: those pictures are never fingerprinted), and a switch that hides the live satellites. It is a live prototype, built with TypeScript, React, MapLibre and a Cloudflare Worker, and tested in three browser engines and for accessibility.
 
-[Live site](https://grahsaboot.grahsaboot.workers.dev) · [Code](https://github.com/Krishpotanwar/grahsaboot) · [The 3-minute video](https://github.com/Krishpotanwar/grahsaboot/blob/main/docs/media/grahsaboot-explainer.mp4) (captions on; GitHub opens the file page, where Download saves it)
+[Live site](https://grahsaboot.grahsaboot.workers.dev) · [Code](https://github.com/Krishpotanwar/grahsaboot) · [The 3-minute video](https://github.com/Krishpotanwar/grahsaboot/blob/main/docs/media/grahsaboot-explainer.mp4) (the picture above is a 24-second silent preview; the full video is a file, so GitHub opens its page, where Download saves it)
 
 ### HisaabKitaab: splitting group expenses, built for India
 
