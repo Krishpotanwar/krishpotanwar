@@ -79,6 +79,19 @@ A ground track is the path a satellite traces over the ground. Mine is my contri
 
 </details>
 
+## Play: Clear Pass
+
+I made a small game about a problem GrahSaboot runs into all the time: a cloud can hide the ground when a satellite passes over. Tap when an orange target is inside the four orange corners and no cloud covers it. You get ten targets. It runs in your browser, makes no outside requests and stores nothing.
+
+<a href="https://krishpotanwar.github.io/clear-pass/">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Krishpotanwar/krishpotanwar/main/assets/clear-pass-dark.png">
+  <img src="https://raw.githubusercontent.com/Krishpotanwar/krishpotanwar/main/assets/clear-pass-light.png" alt="A screenshot of the game Clear Pass: a line-drawn satellite above a strip of ground tiles, with four orange corners around an orange target and pale clouds drifting nearby. The picture opens the game." width="640">
+</picture>
+</a>
+
+[Play it in your browser](https://krishpotanwar.github.io/clear-pass/) · [Code](https://github.com/Krishpotanwar/clear-pass)
+
 ## Let's connect
 
 If you have an internship, a collaboration or a problem worth solving, I would like to hear about it.
