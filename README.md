@@ -65,7 +65,7 @@ I practise on LeetCode, Codeforces and CodeChef, mostly dynamic programming, mon
 
 You will find me on a football pitch, at the gym, or editing bike trip videos with friends. I also like finding someone new to talk to. Collecting perspectives is my favourite hobby.
 
-## My last year on GitHub
+## Ground track: my last year on GitHub
 
 A ground track is the path a satellite traces over the ground. Mine is my contribution graph: one square for each day of the last year, a stronger orange on busier days, with a snake that winds across it and eats the coloured squares. A small GitHub Action redraws it every day.
 
